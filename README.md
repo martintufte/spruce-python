@@ -1,7 +1,7 @@
 # Spruce 🌲
 
-![pre-commit](https://github.com/martintufte/spruce/actions/workflows/pre-commit.yml/badge.svg)
-![ci](https://github.com/martintufte/spruce/actions/workflows/ci.yml/badge.svg)
+![pre-commit](https://github.com/martintufte/spruce-python/actions/workflows/pre-commit.yml/badge.svg)
+![ci](https://github.com/martintufte/spruce-python/actions/workflows/ci.yml/badge.svg)
 
 **Spruce** is a Rubik’s cube solver designed to analyse and solve phases of the cube.
 
@@ -31,10 +31,10 @@ The name reflects both the philosophy and mechanics behind the project:
 
 ```bash
 # Clone the repository
-git clone https://github.com/martintufte/spruce
+git clone https://github.com/martintufte/spruce-python
 
 # Move into the project directory
-cd spruce
+cd spruce-python
 
 # Install uv
 curl -LsSf https://astral.sh/uv/install.sh | sh  # Linux/macOS/WSL
