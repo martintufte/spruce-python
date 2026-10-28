@@ -1,5 +1,5 @@
 [project]
-name = "spruce"
+name = "spruce-python"
 version = "0.7.4"
 description = "Spruce - Solving Phases of the Rubik's cube."
 authors = [
@@ -88,3 +88,6 @@ exclude_lines = [
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["spruce"]
